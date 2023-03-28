@@ -3,7 +3,7 @@
  * print_rev - a function that prints a string,
  * in reverse, followed by a new line.
  * @s: string
- * Return: 0
+ * Return: 0 (Success)
  */
 void print_rev(char *s)
 {
@@ -22,4 +22,6 @@ void print_rev(char *s)
 		s++;
 	}
 	putchar('\n');
+
+	return (0);
 }
